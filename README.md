@@ -6,7 +6,7 @@ A Roadster-inspired 3D rigid-body simulation exploring how individual thrusters 
 
 ## Why this project exists
 
-A video depicting a flying Tesla Roadster left me completely stunned. I wanted to understand how the individual thrusters could control such a manoeuvre, so I started with forces, moments and a simple feedback controller.
+Tesla's unveiling of the new Roadster 2 — and its seemingly flying manoeuvres — left me completely stunned. I wanted to understand how the individual thrusters could control such a manoeuvre, so I started with forces, moments and a simple feedback controller.
 
 This small project grew through successive experiments: a 3D jump, a full roll, explicit front lateral yaw jets, a flight-test HUD, live control plots and a smoother landing arc. It was developed by Dashuai Chen with assistance from OpenAI Codex.
 
