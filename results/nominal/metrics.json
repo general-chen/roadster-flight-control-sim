@@ -1,0 +1,130 @@
+{
+  "mass_kg": 2000.0,
+  "inertia_kg_m2": [
+    900.0,
+    3600.0,
+    4000.0
+  ],
+  "dt_s": 0.0025,
+  "collision": false,
+  "minimum_conservative_vertical_clearance_m": 0.26571335972735177,
+  "touchdown": {
+    "time_s": 3.9250000000000003,
+    "position_m": [
+      35.32379637431507,
+      -0.8341587896994184,
+      0.5669330909719449
+    ],
+    "vertical_speed_m_s": -0.3775159603164494,
+    "horizontal_speed_m_s": 9.011441011483686,
+    "attitude_deg": [
+      -0.871213101567221,
+      -2.6171371238818336e-05,
+      2.284936274480087e-07
+    ],
+    "angular_speed_rad_s": 0.004228838784800538,
+    "vertical_contact_point_speed_m_s": -0.37268651356521937,
+    "max_floor_penetration_at_detection_m": 0.000490049552317573
+  },
+  "total_impulse_N_s": 83425.47589723245,
+  "position_RMSE_m": 1.5122280812114477,
+  "gas_supply": "unlimited; no depletion or pressure model",
+  "mass_model": "constant",
+  "initial_forward_speed_m_s": 9.0,
+  "rear_thrusters_active": false,
+  "success": true,
+  "net_roll_degrees": 359.1287868984328,
+  "maximum_height_m": 6.925217938190977,
+  "rear_body_gap_to_row_at_contact_m": 10.473796074004028,
+  "front_lateral_peak_thrust_N": [
+    1350.515609014935,
+    366.40369189058526
+  ],
+  "initial_yaw_deg": 2.5,
+  "maximum_absolute_heading_yaw_deg": 2.5,
+  "boost_acceleration_m_s2": 5.8,
+  "landing_x_target_m": 36.89867519502917,
+  "final_descent_start_s": 2.5,
+  "position_tracking_RMSE_PID_active_m": 0.02142931162893659,
+  "landing_vertical_reference_duration_s": 1.6,
+  "minimum_forward_speed_after_roll_m_s": 8.999293784532215,
+  "landing_design": "C2 quintic vertical arc with constant forward speed; no hover, stop or vertical-only segment",
+  "final_descent_pitch_request_limit_deg": null,
+  "maximum_absolute_pitch_below_2m_deg": 7.866027058539874e-05,
+  "roll_completed": true,
+  "half_dt_check": {
+    "success": true,
+    "clearance_difference_m": 0.003316913820849976,
+    "touchdown_vertical_speed_difference_m_s": -0.014835667317431689
+  },
+  "yaw_and_crosswind_check": {
+    "mass_kg": 2000.0,
+    "inertia_kg_m2": [
+      900.0,
+      3600.0,
+      4000.0
+    ],
+    "dt_s": 0.0025,
+    "collision": false,
+    "minimum_conservative_vertical_clearance_m": 0.2568005943285696,
+    "touchdown": {
+      "time_s": 3.9375,
+      "position_m": [
+        35.43516132060328,
+        -0.587509354561167,
+        0.5627099670233962
+      ],
+      "vertical_speed_m_s": -0.3170333888614627,
+      "horizontal_speed_m_s": 9.004483865279827,
+      "attitude_deg": [
+        -0.6557000506879278,
+        -4.16627280664252e-05,
+        -1.7194555439234425e-06
+      ],
+      "angular_speed_rad_s": 0.02419500430838022,
+      "vertical_contact_point_speed_m_s": -0.28935925428383863,
+      "max_floor_penetration_at_detection_m": 0.00041610950086501397
+    },
+    "total_impulse_N_s": 83977.88243736415,
+    "position_RMSE_m": 1.4711510551973999,
+    "gas_supply": "unlimited; no depletion or pressure model",
+    "mass_model": "constant",
+    "initial_forward_speed_m_s": 9.0,
+    "rear_thrusters_active": false,
+    "success": true,
+    "net_roll_degrees": 359.3442999493121,
+    "maximum_height_m": 6.916261505142884,
+    "rear_body_gap_to_row_at_contact_m": 10.585160804130346,
+    "front_lateral_peak_thrust_N": [
+      1784.173806795746,
+      510.25038850934266
+    ],
+    "initial_yaw_deg": 2.5,
+    "maximum_absolute_heading_yaw_deg": 3.5,
+    "boost_acceleration_m_s2": 5.8,
+    "landing_x_target_m": 36.897451440895665,
+    "final_descent_start_s": 2.5,
+    "position_tracking_RMSE_PID_active_m": 0.022348251197271633,
+    "landing_vertical_reference_duration_s": 1.6,
+    "minimum_forward_speed_after_roll_m_s": 8.998669950974651,
+    "landing_design": "C2 quintic vertical arc with constant forward speed; no hover, stop or vertical-only segment",
+    "final_descent_pitch_request_limit_deg": null,
+    "maximum_absolute_pitch_below_2m_deg": 0.00014136104660367933,
+    "roll_completed": true
+  },
+  "display_direction": "right to left in 3D; positive world x projects left",
+  "controller": "hybrid boost/recovery position PID; roll attitude PD with angular-rate/acceleration feedforward",
+  "roll_timing_s": [
+    1.0,
+    2.5
+  ],
+  "recovery_duration_s": 4.0,
+  "horizontal_braking_reference_duration_s": null,
+  "rendering": "3D with live telemetry HUD; nozzle hardware visible even when idle",
+  "dimensions_including_nozzles_m": [
+    4.5,
+    2.3,
+    1.2
+  ],
+  "assumptions": "2000 kg constant mass; inertia diag(900,3600,4000) kg m2; no calibrated Tesla parameters"
+}

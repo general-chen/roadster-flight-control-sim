@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+# Generated outputs in the project root; reference results are tracked separately.
+/*.mp4
+/*.gif
+/hud_*.png
+/control_analysis.png
+/palette.png
+/trajectory.csv
+/control_comparison.csv
+/display_reference.csv
+/telemetry.csv
+/roll_history.csv
+/metrics.json
+/run.log

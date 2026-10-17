@@ -1,0 +1,152 @@
+{
+  "status": "assumed simulation parameters, not calibrated Tesla specifications",
+  "mass_kg": 2000.0,
+  "inertia_about_COM_body_kg_m2": [
+    [
+      900.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      3600.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      4000.0
+    ]
+  ],
+  "body_axes": [
+    "x forward",
+    "y left",
+    "z up"
+  ],
+  "collision_envelope_m": [
+    4.5,
+    2.3,
+    1.2
+  ],
+  "COM_above_lower_envelope_m": 0.55,
+  "thruster_locations_from_COM_m": [
+    [
+      1.6,
+      0.8,
+      -0.3
+    ],
+    [
+      1.6,
+      -0.8,
+      -0.3
+    ],
+    [
+      -1.6,
+      0.8,
+      -0.3
+    ],
+    [
+      -1.6,
+      -0.8,
+      -0.3
+    ],
+    [
+      1.9,
+      1.02,
+      -0.1
+    ],
+    [
+      1.9,
+      -1.02,
+      -0.1
+    ],
+    [
+      -2.0,
+      0.7,
+      0.0
+    ],
+    [
+      -2.0,
+      0.23,
+      0.0
+    ],
+    [
+      -2.0,
+      -0.23,
+      0.0
+    ],
+    [
+      -2.0,
+      -0.7,
+      0.0
+    ]
+  ],
+  "thruster_reaction_directions_body": [
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "max_thrust_N": [
+    10000,
+    10000,
+    10000,
+    10000,
+    2000,
+    2000,
+    0,
+    0,
+    0,
+    0
+  ],
+  "first_order_actuator_time_constant_s": 0.03,
+  "gas_supply": "unlimited",
+  "initial_forward_speed_m_s": 9.0,
+  "initial_yaw_deg": 2.5
+}
