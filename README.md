@@ -16,8 +16,6 @@ The broader inspiration is the ambition to imagine a future, reason from first p
 
 ## Video
 
-**YouTube link: to be added after the video URL is supplied.**
-
 The simulation produces a 2560 × 1440 MP4 and a GIF. The preview above shows the final frame, including the full flight path. Flight proceeds right to left on screen; forward motion is positive world x.
 
 ## What is included
