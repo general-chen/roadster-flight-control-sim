@@ -2,7 +2,7 @@
 
 A Roadster-inspired 3D rigid-body simulation exploring how individual thrusters can produce a jump, a full roll, yaw correction and a continuous forward landing. Built in Python with position PID, geometric attitude PD and reference feedforward.
 
-![3D simulation, live thrust and attitude plots, and assumed vehicle parameters](docs/images/preview.png)
+![Animated 3D flight simulation with live thrust, attitude and trajectory plots](docs/images/flight.gif)
 
 ## Why this project exists
 
@@ -16,7 +16,7 @@ The broader inspiration is the ambition to imagine a future, reason from first p
 
 ## Video
 
-The simulation produces a 2560 × 1440 MP4 and a GIF. The preview above shows the final frame, including the full flight path. Flight proceeds right to left on screen; forward motion is positive world x.
+The simulation produces a 2560 × 1440 MP4 and a GIF. The animation above shows the complete flight with live telemetry and control plots. Flight proceeds right to left on screen; forward motion is positive world x.
 
 ## What is included
 
